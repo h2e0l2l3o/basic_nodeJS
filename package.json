@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "- Chrome V8 JavaScript 엔진(자바스크립트 문법해석하고 동작시켜주는 엔진)으로 빌드된 JavaScript 런타임(프로그래밍 언어가 동작하는 환경).",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
